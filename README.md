@@ -26,3 +26,11 @@
     * run `react-native run-android`
 
 ### This App is a static app built for use in a setting without cellphone service.
+
+![ScreenShot](./assets/Simulator-Screen-Shot1.png)
+![ScreenShot](./assets/Simulator-Screen-Shot2.png)
+![ScreenShot](./assets/Simulator-Screen-Shot3.png)
+![ScreenShot](./assets/Simulator-Screen-Shot4.png)
+![ScreenShot](./assets/Simulator-Screen-Shot5.png)
+![ScreenShot](./assets/Simulator-Screen-Shot6.png)
+![ScreenShot](./assets/Simulator-Screen-Shot7.png)
