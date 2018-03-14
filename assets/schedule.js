@@ -52,7 +52,7 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '1:00pm',
-    'artist': 'Bean Boy McCoy',
+    'artist': 'DJ SAM',
     'stage': 'Tent Town'
   },
   {
@@ -82,7 +82,7 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '6:00pm',
-    'artist': 'Rhytmic Friction',
+    'artist': 'Rhythmic Friction',
     'stage': 'Main Stage'
   },
   {
@@ -102,6 +102,12 @@ export const fridayList = [
     'time': '9:30pm',
     'artist': 'DJEDI',
     'stage': 'Main Stage'
+  },
+  {
+    'day': 'Friday',
+    'time': '10:00pm',
+    'artist': 'Dirtyworks',
+    'stage': 'Grove Stage'
   },
   {
     'day': 'Friday',
@@ -168,7 +174,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '1:00pm',
-    'artist': 'DJ SAM',
+    'artist': 'BeanBoy McCoy',
     'stage': 'Tent Town'
   },
   {
@@ -180,7 +186,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '3:00pm',
-    'artist': 'Dirtyworkz',
+    'artist': 'Anthony Motto',
     'stage': 'Tent Town'
   },
   {
@@ -192,7 +198,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '5:00pm',
-    'artist': 'E.Prophit',
+    'artist': 'E R R A T I Q U E',
     'stage': 'Tent Town'
   },
   {
@@ -204,7 +210,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '7:00pm',
-    'artist': 'KC NOVA',
+    'artist': 'Katherine Carole',
     'stage': 'Main Stage'
   },
   {
@@ -282,7 +288,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '6:00am',
-    'artist': 'Fam Jam',
+    'artist': 'Plantrae',
     'stage': 'Grove Stage'
   }
 ]

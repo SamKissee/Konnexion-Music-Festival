@@ -224,5 +224,43 @@ export const artistList = [
     'location': 'Boise, Idaho',
     'picture': Images.evolushawn,
     'link': 'https://soundcloud.com/evolushawnmusic'
-  }
+  },
+  {
+    'name': 'Rhythmic Friction',
+    'bio': 'Rhythmic Friction is the solo project of multi-instrumental performer and songwriter Jeremy Kangior. Currently an Oregon resident, he has spent recent years throughout the Northwest, honing his craft and finding new sources of inspiration. His first album, Freak Till You Squeak was a 12 track release in the summer of 2016. FTYS has an upbeat style and easy to follow composition containing driving grooves, minimal vocals, and electronic influence. His second album, The Clap Daddy, is set for release in 2018. Rhythmic Friction often has guest accompaniment from other musicians on stage, and performances are tailored specically for each show.',
+    'genre': 'Alternative Electronic',
+    'location': 'Boise, Idaho',
+    'picture': Images.rhythmic,
+    'link': 'https://soundcloud.com/rhythmic-friction'
+  },
+  {
+    'name': 'Katherine Carole',
+    'bio': 'Katherine Carole, previously known as KC Nova, is a Boise native DJ who is known for her love of getting people to the dance floor. Her passion of dance inspired her drive to play the beats for others to groove out to. She has played tech house, bass house, and techno for 5 years in the local community at shows like Pussycat ball, Sensory Illumination, Silent Disco, Idaho Decompression, Boise Music Festival, and local collectives like Lit at the Balcony, FML at Fatty’s bar, and The Reef’s WOH.',
+    'genre': 'Tech House/Techno',
+    'location': 'Boise, Idaho',
+    'picture': Images.kcnova,
+    'link': 'https://soundcloud.com/kcnova'
+  },
+  {
+    'name' : 'Dirtyworks'
+    'genre': 'Drum&Bass/Halftime'
+    'hometown': 'Boise, ID'
+    'bio' : 'What can be said about the man who has graced almost every single great party in this town for over a decade. Some would say Jeff Lynn aka Dirtyworks has the ears of a future Al robot. Artfully crafting the latest and greatest drum and bass sounds for your dancing pleasure. Whether a lover of drum and bass or not, many have found themselves entranced with the levels of creativity Dirtyworks is able to achieve!'
+    'link' : 'https://soundcloud.com/my-dirtyworks'
+  },
+  {
+    'name' : 'Phynix'
+    'genre': 'Bass Music'
+    'hometown': 'Idaho Falls, ID'
+    'bio' : 'Phynix is a dj based out of Idaho falls, ID. A veteran to the local scene. Constantly working to master the art of reading a crowd, and digging for the freshest Gems. With his extensive track selection, and tremendous stage presence,  Phynix always thrives to bring you an unforgettable music experience. Meddling in genres such as - Trap, Bass music, west coast, Breakbeats, Dubstep, Hiphop, and rap. Active member of The Sick House Productions crew.'
+    'link' : 'https://soundcloud.com/phynix99'
+  },
+  {
+    'name' : 'Dayne5150'
+    'genre': 'Techno'
+    'hometown': 'Boise, ID'
+    'bio' : 'Bacon'
+    'link' : 'https://soundcloud.com/dayne5150'
+  },
+
 ]
