@@ -1,43 +1,43 @@
 export const thursdayList = [
   {
     'day': 'thursday',
-    'time': '5:30',
-    'artist': 'No Prophit',
+    'time': '3:30pm',
+    'artist': 'WOH BINGO',
     'stage': 'Main Stage'
   },
   {
     'day': 'thursday',
-    'time': '5:30',
+    'time': '5:00pm',
+    'artist': 'WOH CREW B2B',
+    'stage': 'Main Stage'
+  },
+  {
+    'day': 'thursday',
+    'time': '8:00pm',
     'artist': 'Styles In Black',
     'stage': 'Main Stage'
   },
   {
     'day': 'thursday',
-    'time': '5:30',
-    'artist': 'Cloudest Speaker',
+    'time': '8:45pm',
+    'artist': 'Modest Haus',
     'stage': 'Main Stage'
   },
   {
     'day': 'thursday',
-    'time': '5:30',
-    'artist': 'WOH',
+    'time': '9:30pm',
+    'artist': 'STRAND',
     'stage': 'Main Stage'
   },
   {
     'day': 'thursday',
-    'time': '5:30',
-    'artist': 'Argon',
+    'time': '10:15pm',
+    'artist': 'Deeveaux',
     'stage': 'Main Stage'
   },
   {
     'day': 'thursday',
-    'time': '5:30',
-    'artist': 'Argon',
-    'stage': 'Main Stage'
-  },
-  {
-    'day': 'thursday',
-    'time': '5:30',
+    'time': '11:00pm',
     'artist': 'Olivier Giacomotto',
     'stage': 'Main Stage'
   }
@@ -106,7 +106,7 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '10:00pm',
-    'artist': 'Dirtyworks',
+    'artist': 'Josh Volt',
     'stage': 'Grove Stage'
   },
   {
@@ -154,13 +154,13 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '5:00am',
-    'artist': 'Luke Mandala',
+    'artist': 'Storm Shadow',
     'stage': 'Grove Stage'
   },
   {
     'day': 'Friday',
     'time': '6:00am',
-    'artist': 'Josh Volt',
+    'artist': 'Dirtyworks',
     'stage': 'Grove Stage'
   }
 ]
@@ -186,7 +186,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '3:00pm',
-    'artist': 'Anthony Motto',
+    'artist': 'E R R A T I Q U E',
     'stage': 'Tent Town'
   },
   {
@@ -198,7 +198,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '5:00pm',
-    'artist': 'E R R A T I Q U E',
+    'artist': 'Anthony Motto',
     'stage': 'Tent Town'
   },
   {
@@ -234,13 +234,13 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '10:00pm',
-    'artist': 'Stormshadow',
+    'artist': 'Michael Manahan',
     'stage': 'Grove Stage'
   },
   {
     'day': 'Saturday',
     'time': '11:00pm',
-    'artist': 'Split & Jaxta',
+    'artist': 'Luke Mandala',
     'stage': 'Grove Stage'
   },
   {
@@ -264,7 +264,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '2:00am',
-    'artist': 'Thelem',
+    'artist': 'Split & Jaxta',
     'stage': 'Grove Stage'
   },
   {
@@ -276,7 +276,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '4:00am',
-    'artist': 'Michael Manahan',
+    'artist': 'Thelem',
     'stage': 'Grove Stage'
   },
   {

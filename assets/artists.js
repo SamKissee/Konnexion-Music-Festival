@@ -202,14 +202,6 @@ export const artistList = [
     'link': 'https://soundcloud.com/brodyizm'
   },
   {
-    'name': 'Triode',
-    'bio': 'For the Canadian up-and-coming uplifting trance DJ/Producer, Triode, music is much more than words could ever explain. Music serves as the cinematic backdrop to each of our stories, and as a DJ he sees it as his job to curate the perfect soundtrack to celebrate this amazing thing we call ‘life’. Whether it’s on the dancefloor, or in the studio producing his own beats - Triode’s takes his listeners for a ride, into a magical place where you become the hero of this musical journey.',
-    'genre': 'Trance',
-    'location': 'San Fran, CA',
-    'picture': Images.triode,
-    'link': 'https://soundcloud.com/triodeofficial'
-  },
-  {
     'name': 'Josh Volt',
     'bio': 'Techno magician straight outta Hogwarts. DJ at Night Spin Kollective of SLC, UT.',
     'genre': 'Techno/Tech House',
@@ -242,25 +234,115 @@ export const artistList = [
     'link': 'https://soundcloud.com/kcnova'
   },
   {
-    'name' : 'Dirtyworks'
-    'genre': 'Drum&Bass/Halftime'
-    'hometown': 'Boise, ID'
-    'bio' : 'What can be said about the man who has graced almost every single great party in this town for over a decade. Some would say Jeff Lynn aka Dirtyworks has the ears of a future Al robot. Artfully crafting the latest and greatest drum and bass sounds for your dancing pleasure. Whether a lover of drum and bass or not, many have found themselves entranced with the levels of creativity Dirtyworks is able to achieve!'
-    'link' : 'https://soundcloud.com/my-dirtyworks'
+    'name': 'Stormshadow',
+    'bio': 'Born and raised in the city of Boise, local Dj and promoter Stormshadow has been involved in the electronic music scene for nearly 20 years. Starting his journey as a Kandi Kid attending raves in the late 90’s, the love for rave culture, and the vibe created by its fresh yet underground sound quickly consumed his world. By the year 2000, he had developed an insatiable thirst for finding new tunes; along with a deep love for mixing those tunes in front of a crowd. Unknowingly, he was embarking on a life-long adventure; through the ever-changing universe of bleeps, bloops and basslines we call Electronic Music. As a Dj and a promoter his journey that humbly began in warehouses, moved into night clubs &amp; smaller venues, eventually leading to the mountains surrounding his native city. As one of the founders Idaho’s ‘Esthetic Evolution’ Festival, Stormshadow continued to pursue his passion for new underground music, adding several genres of music to his ever-growing playlist',
+    'genre': 'Techno',
+    'location': 'Bozo, Idaho',
+    'picture': Images.stormshadow,
+    'link': 'https://soundcloud.com/stormshadow'
   },
   {
-    'name' : 'Phynix'
-    'genre': 'Bass Music'
-    'hometown': 'Idaho Falls, ID'
-    'bio' : 'Phynix is a dj based out of Idaho falls, ID. A veteran to the local scene. Constantly working to master the art of reading a crowd, and digging for the freshest Gems. With his extensive track selection, and tremendous stage presence,  Phynix always thrives to bring you an unforgettable music experience. Meddling in genres such as - Trap, Bass music, west coast, Breakbeats, Dubstep, Hiphop, and rap. Active member of The Sick House Productions crew.'
-    'link' : 'https://soundcloud.com/phynix99'
+    'name': 'Dirtyworks',
+    'bio': 'What can be said about the man who has graced almost every single great party in this town for over a decade. Some would say Jeff Lynn aka Dirtyworks has the ears of a future Al robot. Artfully crafting the latest and greatest drum and bass sounds for your dancing pleasure. Whether a lover of drum and bass or not, many have found themselves entranced with the levels of creativity Dirtyworks is able to achieve!',
+    'genre': 'Drum and Bass',
+    'location': 'Boise, Idaho',
+    'picture': Images.dirtyworks,
+    'link': 'https://soundcloud.com/my-dirtyworks'
   },
   {
-    'name' : 'Dayne5150'
-    'genre': 'Techno'
-    'hometown': 'Boise, ID'
-    'bio' : 'Bacon'
-    'link' : 'https://soundcloud.com/dayne5150'
+    'name': 'Dayne5150',
+    'bio': 'Bacon',
+    'genre': 'Techno',
+    'location': 'Boise, Idaho',
+    'picture': Images.dayne5150,
+    'link': 'https://soundcloud.com/kcnova'
   },
-
+  {
+    'name': 'Deeveaux',
+    'bio': 'Deeveaux spawned from circuitry within the motherboards of a thousand cyborgs.',
+    'genre': 'House, Techno, Synthwave, NuDisco',
+    'location': 'Boise, Idaho',
+    'picture': Images.deeveaux,
+    'link': 'https://soundcloud.com/deeveaux'
+  },
+  {
+    'name': 'Cloudest Speaker',
+    'bio': 'Open format DJ style with an emphasis on nuanced works of current electronic productions in varying styles, genres, and tempos to build a vibe thats both thought provoking and fun to move to.',
+    'genre': 'Future Bass/Hip Hop',
+    'location': 'Sun Valley, Idaho',
+    'picture': Images.cloudest,
+    'link': 'https://soundcloud.com/cloudest-speaker'
+  },
+  {
+    'name': 'Styles in Black',
+    'bio': 'Based in Boise, Idaho, producer Styles in Black combines the warm nostalgia of lo-fi hip-hop with bass-heavy, tribal-influenced rhythms. His shows feature live instrumentation coupled with beautiful psychedelic visuals. With a wide range of musical styles and collaborations with artists around the globe, his productions range from chillhop to trap, reggae, R&B, and funk. With two albums on Philos Records and features on outlets such as Chill Masters, Indie Shuffle, and Stereofox, Styles in Black has steadily crafted a signature sound that is tropical, nostalgic, and exotic.',
+    'genre': 'Tribal/Trip Hop',
+    'location': 'Boise, Idaho',
+    'picture': Images.styles,
+    'link': 'https://soundcloud.com/stylesinblack'
+  },
+  {
+    'name': 'STRAND',
+    'bio': 'Harrison Strand aka STRAND is a Downtempo/Melodic/Bass music forward Artist, Performer and Producer, based out of the Pacific Northwest. Ableton Certified through Dubspot, STRAND has quickly fixated on a specific style of production over the past three years, focusing on complex sound design and melodic composition, bringing the rhythm of Hip-Hop and Downtempo together with the heaviness and euphoria of Bass music.',
+    'genre': 'Melodic Downtempo/Bass',
+    'location': 'Northwest',
+    'picture': Images.strand,
+    'link': 'https://soundcloud.com/strand_music'
+  },
+  {
+    'name': 'No Prophit',
+    'bio': 'If the electronic music scene were a school, No Prophit would be a professor of bass. His low-end curriculum includes halftime, drum and bass, grime, juke, downtempo, future garage and experimental club. A DJ is meant to be a musical tastemaker, whose immersive internet crate-digging has the power to lead a dancefloor to the fringe of dance. In this way, No Prophit challenges himself to be a DJ of the highest caliber. If you only want to hear your favorite tunes when you go out, you might be sorely disappointed. If you want to explore the frontiers of electronic music, where new favorites and fresh dance-moves are formed, No Prophit will guide you.',
+    'genre': 'Bass/Scentsy Candle',
+    'location': 'Boise, ID',
+    'picture': Images.noprophit,
+    'link': 'https://soundcloud.com/no-prophit'
+  },
+  {
+    'name': 'WOH CREW',
+    'bio': 'Culture Curators Suite Love, Nte Owl, &  LoveGunz are on a mission to feed the most tasteful sounds of the underground into the ears of the overly saturated young adults of the dance music scene. The WOH brand encompasses originality by  curating a vibe that has created a community that people want to be a part of on top of pushing the boundaries of modern trends. Come check out and be a part of the WOH Club.',
+    'genre': 'House, Bass, Hip-hop, Trap, Techno, Disco, Experimental.',
+    'location': 'Boise, ID',
+    'picture': Images.woh,
+    'link': 'https://soundcloud.com/wohcollective'
+  },
+  {
+    'name': 'Modest Haus',
+    'bio': 'Leaving the booty club type beats behind, the collaborative project of Nte Owl & LoveGunz teams up to showcase their intelligent house & techno collections.',
+    'genre': 'House/Techno',
+    'location': 'Boise, ID',
+    'picture': Images.modest,
+    'link': 'https://soundcloud.com/wohcollective/modest-haus-support-set-for-woh-presents-justin-martin'
+  },
+  {
+    'name': 'Triode',
+    'bio': 'For the Canadian up-and-coming uplifting trance DJ/Producer, Triode, music is much more than words could ever explain. Music serves as the cinematic backdrop to each of our stories, and as a DJ he sees it as his job to curate the perfect soundtrack to celebrate this amazing thing we call ‘life’. Whether it’s on the dancefloor, or in the studio producing his own beats - Triode’s takes his listeners for a ride, into a magical place where you become the hero of this musical journey.',
+    'genre': 'Trance',
+    'location': 'San Fran, CA',
+    'picture': Images.triode,
+    'link': 'https://soundcloud.com/triodeofficial'
+  },
+  {
+    'name': 'Phynix',
+    'bio': 'Phynix is a dj based out of Idaho falls, ID. A veteran to the local scene. Constantly working to master the art of reading a crowd, and digging for the freshest Gems. With his extensive track selection, and tremendous stage presence,  Phynix always thrives to bring you an unforgettable music experience. Meddling in genres such as - Trap, Bass music, west coast, Breakbeats, Dubstep, Hiphop, and rap.',
+    'genre': 'Bass',
+    'location': 'Idaho Falls',
+    'picture': Images.phynix,
+    'link': 'https://soundcloud.com/phynix99/trapmania-phynix'
+  },
+  {
+    'name': 'DSQISE',
+    'bio': 'Wrapped in an enigma, shrouded in mystery, DSQISE traverses the parallel universes; studying and discovering, and then hopping back into this verse to mold it all together into an ethereal disco house bubble bath topped with chocolate techno flakes and crispy ghetto house cookies. The sounds of DSQISE are tailored to which point in time he ends up, and who he ends up as. Label commander at Quite Right Records, Producer, DJ, and love enthusiast; DSQISE bring connection through music and into the souls of all who surround. From ghetto house to disco, ethereal to breaks, the journey will always be interesting. ',
+    'genre': 'House/Disco/Techno',
+    'location': 'Denver, CO',
+    'picture': Images.dsqise,
+    'link': 'https://soundcloud.com/dsqise'
+  },
+  {
+    'name': 'RedFX',
+    'bio': 'Started his Career almost ten years ago and has no signs of slowing down yet. Getting his start playing electro/breaks, early in his career of music really setting the tone for his future and drive for this amazing journey that hes embarked on. Really becoming a limelight in the Boise music scenes. Later down the down the road he stumbled upon "PsyBreak", which was really a turning point in his life and music. Now you can catch him focusing on Progressive Trance/Psytrance, and this is a must see, when you find him behind the decks with his unique set ups and stage presence.',
+    'genre': 'Midtempo/PsyBreaks',
+    'location': 'Boise, ID',
+    'picture': Images.redfx,
+    'link': 'https://soundcloud.com/timothy-redington'
+  },
 ]
