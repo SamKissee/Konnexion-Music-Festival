@@ -82,7 +82,7 @@ export const artistList = [
     'link': 'https://soundcloud.com/the-librarian'
   },
   {
-    'name': 'Tara Brooks - Desert Hearts',
+    'name': 'Tara Brooks',
     'bio': "There is a line where the dark fuses with the light, the surreal with the sublime, the graceful with the powerful; it is within this line that Tara Brooks has carved out her truly distinct sound. Whether playing at an intimate club, a dark underground warehouse, a packed festival or a magical sunrise deep in the Burning Man Playa, Tara's music envelopes the crowd, stirring them with deep grooves, hypnotic & trippy rhythms, acidy, soulful, and haunting melodies. Behind the decks, her passion and love for music is contagious.",
     'genre': 'Techno/Tech House',
     'location': 'Los Angeles',
@@ -90,7 +90,7 @@ export const artistList = [
     'link': 'https://soundcloud.com/tarabrooksmusic'
   },
   {
-    'name': 'Marbs - Desert Hearts',
+    'name': 'Marbs',
     'bio': 'The sun fades, the last glitter trails of light hit the shimmering and spinning dusty desert disco ball. A throng of dedicated and debauched hard partying Marbie’s Barbies hurtle their way towards center stage (really…they’re Barbies), educated party-goers make their way to the dance floor, no questions asked, while whispers of King of Darkness, crazy house and techno, psychedelic vibes spread through the new night sky. The first melodic notes travel the space, ethereal beauty pouring from the stacked Funktion speakers, waving its way through the crowd. Your eyes close, your body grooves to the sounds and the beats and the thuds of the tech house that is now expertly laid out for all to enjoy. Dark and driving, thumping techno is paired with mystical, beautiful, melodic house. That passionately and expertly paired genre bending style can only mean one thing. Marbs has taken the decks.',
     'genre': 'Techno/Tech House',
     'location': 'San Diego, CA',
@@ -98,7 +98,7 @@ export const artistList = [
     'link': 'https://soundcloud.com/marbs'
   },
   {
-    'name': 'Porky - Desert Hearts',
+    'name': 'Porky',
     'bio': 'Don’t be mislead by the light-hearted name, Porkchop is a man who takes partying very seriously. David Leon, as he is otherwise known, is the wildcard of Desert Hearts, the San Diego-bred crew of DJs and rabble-rousers tearing up the underground with deep, dark, and weird house and techno.',
     'genre': 'Techno/Tech House',
     'location': 'San Diego, CA',
@@ -106,7 +106,7 @@ export const artistList = [
     'link': 'https://soundcloud.com/porkchop-deserthearts'
   },
   {
-    'name': 'Evan Casey - Desert Hearts',
+    'name': 'Evan Casey',
     'bio': 'Dark, sinister, and deep, Evan Casey has carved out a name for himself by owning the latest hours of your favorite parties. Casually adorned with a devilish grin and always looking fly, the Southern California native is known for his ability to reel in his dance floor and keep it captivated with his unmistakeable sound and driving undertones. But don’t let the all too common “seriousness” of techno fool you, this Desert Hearts ambassador brings a light-hearted atmosphere wherever he goes… and you’ll be quick to notice the dance floor finds the vibe to match.',
     'genre': 'Techno/Tech House',
     'location': 'San Diego, CA',
@@ -344,5 +344,13 @@ export const artistList = [
     'location': 'Boise, ID',
     'picture': Images.redfx,
     'link': 'https://soundcloud.com/timothy-redington'
+  },
+  {
+    'name': 'BeanBoy McCoy',
+    'bio': 'BeanBoy McCoy has been rocking the decks since 2010.  He loves bringing a bassy, dirty, and sexual funk to all his sets. BeanBoy has multiple venues under his belt from Esthetic Evolution in 2010 & 11, Gemini Jamboree 2012, 13, 14 and 15, Idaho Decompression, and Treefort.  Locally BeanBoy can be found at Fattys, Liquid Lounge or the Reef.  And his talents can be found on any deck including vinyl.  Artists like 33hz, James Harcourt, Hedflux, Carl Cox and Dylan Rhymes all influenced a sound ranging from Techno, House, Psy, Breaks and Bass. From musical genres reaching all across the board his soul is in the HOUSE!!',
+    'genre': 'Tech House',
+    'location': 'Boise, ID',
+    'picture': Images.beanboy,
+    'link': 'https://soundcloud.com/beanboymccoy'
   },
 ]

@@ -44,7 +44,23 @@ const images = {
   brodyizm: require('../Images/artistpics/brodyizm.jpg'),
   triode: require('../Images/artistpics/triode.jpg'),
   joshvolt: require('../Images/artistpics/joshvolt.jpg'),
-  evolushawn: require('../Images/artistpics/evolushawn.jpg')
+  evolushawn: require('../Images/artistpics/evolushawn.jpg'),
+  rhythmic: require('../Images/artistpics/rhythmic.jpg'),
+  kcnova: require('../Images/artistpics/kcnova.jpg'),
+  stormshadow: require('../Images/artistpics/stormshadow.jpg'),
+  dirtyworks: require('../Images/artistpics/dirtyworks.jpg'),
+  dayne5150: require('../Images/artistpics/dayne5150.jpg'),
+  deeveaux: require('../Images/artistpics/deeveaux.jpg'),
+  cloudest: require('../Images/artistpics/cloudest.jpg'),
+  styles: require('../Images/artistpics/styles.jpg'),
+  strand: require('../Images/artistpics/strand.jpg'),
+  noprophit: require('../Images/artistpics/noprophit.jpg'),
+  woh: require('../Images/artistpics/woh.jpg'),
+  modest: require('../Images/artistpics/modest.png'),
+  phynix: require('../Images/artistpics/phynix.jpg'),
+  dsqise: require('../Images/artistpics/dsqise.png'),
+  redfx: require('../Images/artistpics/redfx.jpg'),
+  beanboy: require('../Images/artistpics/beanboy.jpg'),
 
 }
 
