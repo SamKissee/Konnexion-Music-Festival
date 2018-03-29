@@ -106,7 +106,7 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '10:00pm',
-    'artist': 'Josh Volt',
+    'artist': 'EvoluShawn',
     'stage': 'Grove Stage'
   },
   {
@@ -130,7 +130,7 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '12:00am',
-    'artist': 'Desert Hearts',
+    'artist': 'Porky b2b Tara Brooks',
     'stage': 'Grove Stage'
   },
   {
@@ -204,13 +204,13 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '6:00pm',
-    'artist': 'EvoluShawn',
+    'artist': 'Katherine Carole',
     'stage': 'Main Stage'
   },
   {
     'day': 'Saturday',
     'time': '7:00pm',
-    'artist': 'Katherine Carole',
+    'artist': 'Josh Volt',
     'stage': 'Main Stage'
   },
   {
@@ -252,7 +252,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '12:00am',
-    'artist': 'Desert Hearts',
+    'artist': 'Marbs b2b Evan Casey',
     'stage': 'Grove Stage'
   },
   {
@@ -264,7 +264,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '2:00am',
-    'artist': 'Split & Jaxta',
+    'artist': 'Jaxta',
     'stage': 'Grove Stage'
   },
   {

@@ -353,4 +353,12 @@ export const artistList = [
     'picture': Images.beanboy,
     'link': 'https://soundcloud.com/beanboymccoy'
   },
+  {
+    'name': 'DJ SAM',
+    'bio': ' 40yr old kid at heart, Passionate DJ who loves to see people smile and dance, loves to see my vision come alive and astound people',
+    'genre': 'Amsterdam House',
+    'location': 'Boise, ID',
+    'picture': Images.djsam,
+    'link': 'https://soundcloud.com/djsam-371862605'
+  },
 ]
