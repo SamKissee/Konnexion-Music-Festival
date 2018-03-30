@@ -62,6 +62,10 @@ const images = {
   redfx: require('../Images/artistpics/redfx.jpg'),
   beanboy: require('../Images/artistpics/beanboy.jpg'),
   djsam: require('../Images/artistpics/djsam.jpg'),
+  henna: require('../Images/workshopPics/henna.jpg'),
+  sacredG: require('../Images/workshopPics/sacredG.jpeg'),
+  smash: require('../Images/workshopPics/smash.jpg'),
+  vape: require('../Images/workshopPics/vape.jpg'),
 
 }
 
