@@ -2,6 +2,62 @@ import { Images } from './../App/Themes'
 
 export const workshopList = [
   {
+    'name': 'TENTTOWN - BURNING MAN FOOD HACKS N STUFF',
+    'bio': "​The Burn.. A week in the desert can be strenuous on the body. Fueling your body with nutrition dense food that can fuel you through the Burn or any festival is vital. In this workshop we take a look at some cost effective and nutrition efficient food options that can fuel your whole tribe presented by SteveOh and Justin with the experience of 12 Burns between the two of them. We'll be cooking up and serving food so come hungry!",
+    'teacher': 'Steveoh & Justin 2.0',
+    'location': 'TENTTOWN',
+    'picture': Images.bManHacks,
+    'time': 'Friday 9:00am-10:00am'
+  },
+  {
+    'name': 'TENTTOWN - Card Readings',
+    'bio': "Coming Soon",
+    'teacher': 'TuraJo, JonMo, Charity',
+    'location': 'TENTTOWN',
+    'picture': Images.cards,
+    'time': 'Friday 10:00am-10:30am'
+  },
+  {
+    'name': 'TENTTOWN - Manifest Destiny',
+    'bio': "​The unconscious/subconscious mind accounts for the vast majority of your minds activity. So little of it is actually conscious and alert decision making... this hidden Mind affects your every behavior, decision and thought without your knowing. How many of your thoughts do you think are actually yours? How many are implanted by our societal programming via marketing, propaganda or mainstream media?.. Gaining control of this unconscious Mind will allow you to manifest your true desires and intentions seamlessly and completely, without interference from limiting beliefs stemming from ideas rooted in your Unconscious Mind. Here we explore techniques to gain control over our Unconscious Mind.",
+    'teacher': 'Troy Mazzan',
+    'location': 'TENTTOWN',
+    'picture': Images.manifest,
+    'time': 'Friday 10:30am-11:00am'
+  },
+  {
+    'name': 'TENTTOWN - Flow Arts',
+    'bio': "​​Calling all flow artists. Bring your poi, hoops, fans, staffs nunchakus... any all that you spin. All are welcome whether you are just starting out are a master of the flow. We will be getting trading techniques and tips, learning from each other with beats brought to you by Intrasol. ",
+    'teacher': 'J-How + Intrasol',
+    'location': 'TENTTOWN',
+    'picture': Images.flowarts,
+    'time': 'Friday 11:00am-12:00pm'
+  },
+  {
+    'name': 'TENTTOWN - Authentic Masculine Collective',
+    'bio': "​The Authentic Masculine Collective is a men's group/community based out of Boise, Idaho that strives to debunk the traditional road map of masculinity and assist in awakening men to their fullest potential as authentic human beings. Through in-depth introspection, vulnerability, accountability, and open communication, we push ourselves and each other to excel in being our best versions of ourselves, and become better acquainted with our undigested emotional traumas, self-destructive behavioral patterns, and shadow selves that seem to come in at the right time and sabotage everything we have worked to build. This workshop will consist of various exercises that will propel us men into more poignant connection with ourselves and each other, as well as provide men with a safe platform to dive deeper into themselves and shed their old baggage that no longer serves them.",
+    'teacher': 'Dylan Hunter',
+    'location': 'TENTTOWN',
+    'picture': Images.masculine,
+    'time': 'Saturday 9:00am-10:00am'
+  },
+  {
+    'name': 'TENTTOWN - Yoga Nidra',
+    'bio': "​The practice of yoga found Kyle Ann in 2011. She moved to Arizona and began studying Hatha Yoga, Reiki and Toe Reading. With seven years of practice and experience, she is honored to hold a safe container for others to dive deep within their own depths. In the space of Yoga Nidra we are able to witness our thoughts and recognize we are not our thoughts. When we have control over our thoughts, rather than our thoughts or Ego mind having control over us, we are able to live a more peaceful life. Yoga Nidra is a sleep based technique that is accessible to everyone. In a Yoga Nidra session the body goes into very deeply relaxed states and the brain is guided into delta brainwave levels. Here, awareness is completely detached, allowing all to be as it is, relieving stress and anxieties. Once this feeling is known and visited often, we are able to stay here in our waking lives. We remain unaffected by anything outside of ourselves. Knowing our inner truth and contentment. Yoga Nidra reprograms the brain to allow us to flow through life with more ease and fulfillment by replacing unhelpful habits with new, healthy habits with the use of intention. In this workshop we will learn a few ways to create a custom intention that can be used to shift your consciousness to a higher vibration.",
+    'teacher': 'Kyle Ann',
+    'location': 'TENTTOWN',
+    'picture': Images.yogaKyle,
+    'time': 'Saturday 10:00am-11:00am'
+  },
+  {
+    'name': 'TENTTOWN - BOOTYS, BLOODYS, & BASS',
+    'bio': "​Do you like Bootys? Bloody Mary's or Bass?... Tenttown will be preparing a classic hangover cure for you while you bounce your booty to some good tunes! DJ Dud will be laying down the beats while we keep the good times going! You bring the booty and we'll bring the bloodys and bass!",
+    'teacher': 'Mitchayla & DJ Dud',
+    'location': 'TENTTOWN',
+    'picture': Images.bloodys,
+    'time': 'Saturday 11:00am-12:00pm'
+  },
+  {
     'name': 'Wanderland - Intro to Sacred Geometry',
     'bio': "This class will be driven toward those interested in learning more information on Sacred Geometry and how to integrate it's significance in daily life, and to discuss the symbolism of some of the most common designs.",
     'teacher': 'AJ Vancattenburch',
