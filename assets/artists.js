@@ -34,7 +34,7 @@ export const artistList = [
     'link': 'https://soundcloud.com/oliviergiacomotto'
   },
   {
-    'name': 'Split & Jaxta',
+    'name': 'Jaxta',
     'bio': 'Having both started their musical careers at the young age of 17, Split & Jaxta each bring different backgrounds and styles to their effort which blends exceptionally into a unique and formidable sound. Stylistically, their music derives influences from the psy-trance genre that seems to be the leading sound for Israel’s EDM culture, and twists into an electro-based spectrum, with distorted synths and a certain rock and roll rawness.',
     'genre': 'Psytrance',
     'location': 'Tel Aviv',
@@ -314,6 +314,22 @@ export const artistList = [
     'link': 'https://soundcloud.com/wohcollective/modest-haus-support-set-for-woh-presents-justin-martin'
   },
   {
+    'name': 'Viscous',
+    'bio': 'Coming Soon',
+    'genre': 'Bass',
+    'location': 'SLC, UT',
+    'picture': Images.viscous,
+    'link': 'https://soundcloud.com/viscousproductions'
+  },
+  {
+    'name': 'Handz',
+    'bio': 'Coming Soon',
+    'genre': 'Bass',
+    'location': 'SLC, UT',
+    'picture': Images.handz,
+    'link': 'https://soundcloud.com/handzemoji'
+  },
+  {
     'name': 'Triode',
     'bio': 'For the Canadian up-and-coming uplifting trance DJ/Producer, Triode, music is much more than words could ever explain. Music serves as the cinematic backdrop to each of our stories, and as a DJ he sees it as his job to curate the perfect soundtrack to celebrate this amazing thing we call ‘life’. Whether it’s on the dancefloor, or in the studio producing his own beats - Triode’s takes his listeners for a ride, into a magical place where you become the hero of this musical journey.',
     'genre': 'Trance',
@@ -360,5 +376,13 @@ export const artistList = [
     'location': 'Boise, ID',
     'picture': Images.djsam,
     'link': 'https://soundcloud.com/djsam-371862605'
+  },
+  {
+    'name': 'Tooie',
+    'bio': 'Tooie is a Portland based human that loves to push buttons, drive basslines, and play music for folks. Originally hailing from Boise, ID, Tooie started playing out during FML club nights, annual 208 events, and SLC festivals. His adventurous mixing styles and weird track selection work together create lively, impromptu dancefloor experience. Energizing the crowd is the goal and mixing his favorite genres is the means to it.',
+    'genre': 'House/Techno',
+    'location': 'Portland, OR',
+    'picture': Images.tooie,
+    'link': 'https://soundcloud.com/dj-tooie'
   },
 ]
