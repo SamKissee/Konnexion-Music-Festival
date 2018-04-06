@@ -66,6 +66,11 @@ const images = {
   sacredG: require('../Images/workshopPics/sacredG.jpeg'),
   smash: require('../Images/workshopPics/smash.jpg'),
   vape: require('../Images/workshopPics/vape.jpg'),
+  bManHacks: require('../Images/workshopPics/bManHacks.jpg'),
+  flowarts: require('../Images/workshopPics/flowarts.jpg'),
+  masculine: require('../Images/workshopPics/masculine.jpg'),
+  yogaKyle: require('../Images/workshopPics/yogaKyle.jpg'),
+  bloodys: require('../Images/workshopPics/bloodys.jpg'),
 
 }
 
