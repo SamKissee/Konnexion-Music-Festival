@@ -74,6 +74,8 @@ const images = {
   masculine: require('../Images/workshopPics/masculine.jpg'),
   yogaKyle: require('../Images/workshopPics/yogaKyle.jpg'),
   bloodys: require('../Images/workshopPics/bloodys.jpg'),
+  cards: require('../Images/workshopPics/cards.jpg'),
+  manifest: require('../Images/workshopPics/manifest.jpg'),
 
 }
 

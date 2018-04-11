@@ -11,7 +11,7 @@ export const workshopList = [
   },
   {
     'name': 'TENTTOWN - Card Readings',
-    'bio': "Coming Soon",
+    'bio': "Our connection to the Spirit was illuminated through exploration of reading cards for personal use and for guidance of others. Focusing on our personal emotional and daily challenges. We attempt to give messages to others to encourage them to discover truths within themselves and address change through growth, using a multitude of decks, including Oracle and Tarot. We explore the wonders of the soul through shedding light on life's hidden messages.",
     'teacher': 'TuraJo, JonMo, Charity',
     'location': 'TENTTOWN',
     'picture': Images.cards,

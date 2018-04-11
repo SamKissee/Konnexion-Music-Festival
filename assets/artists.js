@@ -315,7 +315,7 @@ export const artistList = [
   },
   {
     'name': 'Viscous',
-    'bio': 'Coming Soon',
+    'bio': 'VISCOUS has been producing music since 2008. It started as just a hobby and a passion for music. Since the beginning his style has remained in the realm of instrumental/808/beats. In 2013 he started making hip-hop beats, because who doesnt love hip-hop? Producing beats for local artists in Salt Lake, he also joined the SLC hip-hop group The Astroknots; producing, recording, and DJing their live shows. Since then he has gone solo, and as of late has geared his sound/style more towards the all-encompassing genre of Bass Music (more specifically dubstep, dnb, trap, grime, halftime, lo-fi beats, ect',
     'genre': 'Bass',
     'location': 'SLC, UT',
     'picture': Images.viscous,
@@ -323,7 +323,7 @@ export const artistList = [
   },
   {
     'name': 'Handz',
-    'bio': 'Coming Soon',
+    'bio': 'A student of music and a minister of bass, Handz is continuously digging for new, forward thinking music. Inspired by dark brooding melodies and deep lushious bass lines, the dancefloor becomes a journey through rich sonics and intricate sound design spanning all realms of bass music. Not sticking to one genre is the game, while “gettin’ weird with it” is the rule. Let’s play.',
     'genre': 'Bass',
     'location': 'SLC, UT',
     'picture': Images.handz,
