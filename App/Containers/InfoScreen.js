@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PopupDialog, { SlideAnimation, DialogButton } from 'react-native-popup-dialog';
-import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground } from 'react-native'
+import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground, Linking } from 'react-native'
 import { connect } from 'react-redux'
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
@@ -89,13 +89,16 @@ class InfoScreen extends Component {
               <ScrollView style={styles.popUpContainer}>
                 <View >
                   <Text style={styles.popUpText}>
-                    Here at Konnexion, we very much value the chance for self expression. We all LOVE the chance to get away from society and act, dress, and be who we want. Unfortunately this sometimes brings out those with a predatory mentality. CONSENT IS SEXY. Sexual Harassment, however, is not.
+                    Self expression is an important aspect of an Art Festival. All individuals are given the right to express themselves freely here at Konnexion. Unfortunately, predatory behaviors are still happening in real life and at festivals. CONSENT IS SEXY. Sexual harassment in any form is NOT.
                   </Text>
                   <Text style={styles.popUpText}>
-                    This is an important topic and it needs to be known that Konnexion Music Festival does not stand for this type of predatory behavior. We want you to all feel safe at our event and want you to know that we are available to you 24/7 of the event if you need assistance. It doesn't matter what gender you are. Sexual harassment will not be tolerated.
+                    This is an important issue and konnexion music festival does not stand for this type of predatory behavior.  Everyone should be allowed space to feel safe and experience the joys a festival can bring. Please come to our event staff at any time through out the weekend if you need assistance.
                   </Text>
                   <Text style={styles.popUpText}>
                     IF YOU SEE SOMETHING, SAY SOMETHING. IF YOU NEED HELP DO NOT HESITATE TO FIND A STAFF OR SECURITY MEMBER.
+                  </Text>
+                  <Text style={styles.popUpText}>
+                    Those who are found engaging in predatory behaviors will be kicked out if Konnexion immediately and barred from coming to all future events. Be kind to your fellow humans..
                   </Text>
                 </View>
               </ScrollView>
@@ -125,14 +128,21 @@ class InfoScreen extends Component {
             >
               <ScrollView style={styles.popUpContainer}>
                 <View >
-                  <Text style={styles.popUpText}>
-                    https://www.tickettailor.com/events/zipidaho/161976/
+                  <Text style={styles.popUpLink} onPress={() => Linking.openURL('https://www.tickettailor.com/events/zipidaho/161976/')}>
+                    CLICK HERE FOR ZIPLINE TICKETS!
                   </Text>
                   <Text style={styles.popUpText}>
-                    Our goal is to build community and celebrate music and art. We strive to provide a comfortable and truly unique experience, unlike any other in Idaho. 2018 is going to be massive, taking place in a beautiful venue surrounded by 360 degrees of Idaho mountains. Camp on site in a tent, fun and decorative camps are highly encouraged.
+                    Perched roughly 40 minutes outside Boise Idaho, sits this beautiful 150 acres of mountain property, flush with all the beauty that Southern Idaho has to offer!
+                    We expect green, lush landscape with cool temperatures in the high 70s/low 80s. The terrain is a mix of flat and hilly mountain forest, so plan accordingly.
                   </Text>
                   <Text style={styles.popUpText}>
-                    This year we are bringing the biggest vision we’ve ever had to fruition May 31st-June 3rd. Blessing our stages will be a highly curated eclectic vision of melodic journeys. From Jam Bands to Techno and everything in between. Aside from music, we feature performance artists, live paintings and artistic sculptures throughout the event. Join us on this journey into our 6th year of creating space for like-minded individuals to gather and connect.
+                    ZipIdaho will be on-site offering zipline rides during the afternoon. Click the link above to get tickets for Ziplining. We have another year of amazing memories and fantastic times in store for you!
+                  </Text>
+                  <Text style={styles.popUpText}>
+                    Konnexion Music Festival is strictly “Leave No Trace”. You pack it in, you pack it out. No exceptions.
+                  </Text>
+                  <Text style={styles.popUpText}>
+                    WHAT TO BRING:
                   </Text>
                 </View>
               </ScrollView>

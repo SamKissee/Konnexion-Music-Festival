@@ -62,5 +62,11 @@ export default StyleSheet.create({
     color: Colors.white,
     fontSize: Fonts.size.regular,
 
+  },
+  popUpLink: {
+    color: Colors.kmfPurple,
+    fontSize: Fonts.size.h6,
+    textAlign: 'center',
+
   }
 })
