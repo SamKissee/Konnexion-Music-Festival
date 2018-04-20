@@ -70,7 +70,7 @@ class InfoScreen extends Component {
                 this.popupDialog2.show();
               }} />
             <PopupDialog
-              ref={(popupDialog) => { this.popupDialog = popupDialog; }}
+              ref={(popupDialog2) => { this.popupDialog2 = popupDialog2; }}
               dialogAnimation={slideAnimation}
               containerStyle={styles.popUp}
               height={500}
@@ -78,7 +78,7 @@ class InfoScreen extends Component {
                 <DialogButton
                   text="DISMISS"
                   onPress={() => {
-                    this.popupDialog.dismiss();
+                    this.popupDialog2.dismiss();
                   }}
                   key="button-1"
                   buttonStyle={styles.popUpButton}
@@ -89,23 +89,25 @@ class InfoScreen extends Component {
               <ScrollView style={styles.popUpContainer}>
                 <View >
                   <Text style={styles.popUpText}>
-                    Konnexion is Idaho’s largest music and arts festival. We’re dedicated to building the best possible summer camping and festival experience we can while staying true to our core values.
+                    Here at Konnexion, we very much value the chance for self expression. We all LOVE the chance to get away from society and act, dress, and be who we want. Unfortunately this sometimes brings out those with a predatory mentality. CONSENT IS SEXY. Sexual Harassment, however, is not.
                   </Text>
                   <Text style={styles.popUpText}>
-                    Our goal is to build community and celebrate music and art. We strive to provide a comfortable and truly unique experience, unlike any other in Idaho. 2018 is going to be massive, taking place in a beautiful venue surrounded by 360 degrees of Idaho mountains. Camp on site in a tent, fun and decorative camps are highly encouraged.
+                    This is an important topic and it needs to be known that Konnexion Music Festival does not stand for this type of predatory behavior. We want you to all feel safe at our event and want you to know that we are available to you 24/7 of the event if you need assistance. It doesn't matter what gender you are. Sexual harassment will not be tolerated.
                   </Text>
                   <Text style={styles.popUpText}>
-                    This year we are bringing the biggest vision we’ve ever had to fruition May 31st-June 3rd. Blessing our stages will be a highly curated eclectic vision of melodic journeys. From Jam Bands to Techno and everything in between. Aside from music, we feature performance artists, live paintings and artistic sculptures throughout the event. Join us on this journey into our 6th year of creating space for like-minded individuals to gather and connect.
+                    IF YOU SEE SOMETHING, SAY SOMETHING. IF YOU NEED HELP DO NOT HESITATE TO FIND A STAFF OR SECURITY MEMBER.
                   </Text>
                 </View>
               </ScrollView>
             </PopupDialog>
             <HomeButton
-              text='What To Bring'
+              text='Venue - What To Bring'
               bgColor= {Colors.kmfLightBlue}
-              onPress={() => navigate('WorkshopScreen')} />
+              onPress={() => {
+                this.popupDialog3.show();
+              }} />
             <PopupDialog
-              ref={(popupDialog) => { this.popupDialog = popupDialog; }}
+              ref={(popupDialog3) => { this.popupDialog3 = popupDialog3; }}
               dialogAnimation={slideAnimation}
               containerStyle={styles.popUp}
               height={500}
@@ -113,7 +115,7 @@ class InfoScreen extends Component {
                 <DialogButton
                   text="DISMISS"
                   onPress={() => {
-                    this.popupDialog.dismiss();
+                    this.popupDialog3.dismiss();
                   }}
                   key="button-1"
                   buttonStyle={styles.popUpButton}
@@ -124,7 +126,7 @@ class InfoScreen extends Component {
               <ScrollView style={styles.popUpContainer}>
                 <View >
                   <Text style={styles.popUpText}>
-                    Konnexion is Idaho’s largest music and arts festival. We’re dedicated to building the best possible summer camping and festival experience we can while staying true to our core values.
+                    https://www.tickettailor.com/events/zipidaho/161976/
                   </Text>
                   <Text style={styles.popUpText}>
                     Our goal is to build community and celebrate music and art. We strive to provide a comfortable and truly unique experience, unlike any other in Idaho. 2018 is going to be massive, taking place in a beautiful venue surrounded by 360 degrees of Idaho mountains. Camp on site in a tent, fun and decorative camps are highly encouraged.
@@ -138,9 +140,11 @@ class InfoScreen extends Component {
             <HomeButton
               text='Rules'
               bgColor= {Colors.kmfPeach}
-              onPress={() => navigate('InfoScreen')} />
+              onPress={() => {
+                this.popupDialog4.show();
+              }} />
             <PopupDialog
-              ref={(popupDialog) => { this.popupDialog = popupDialog; }}
+              ref={(popupDialog4) => { this.popupDialog4 = popupDialog4; }}
               dialogAnimation={slideAnimation}
               containerStyle={styles.popUp}
               height={500}
@@ -148,7 +152,7 @@ class InfoScreen extends Component {
                 <DialogButton
                   text="DISMISS"
                   onPress={() => {
-                    this.popupDialog.dismiss();
+                    this.popupDialog4.dismiss();
                   }}
                   key="button-1"
                   buttonStyle={styles.popUpButton}
@@ -173,9 +177,11 @@ class InfoScreen extends Component {
             <HomeButton
               text='Getting Here'
               bgColor= {Colors.kmfPurple}
-              onPress={() => navigate('ScheduleScreen')} />
+              onPress={() => {
+                this.popupDialog5.show();
+              }}/>
             <PopupDialog
-              ref={(popupDialog) => { this.popupDialog = popupDialog; }}
+              ref={(popupDialog5) => { this.popupDialog5 = popupDialog5; }}
               dialogAnimation={slideAnimation}
               containerStyle={styles.popUp}
               height={500}
@@ -183,7 +189,7 @@ class InfoScreen extends Component {
                 <DialogButton
                   text="DISMISS"
                   onPress={() => {
-                    this.popupDialog.dismiss();
+                    this.popupDialog5.dismiss();
                   }}
                   key="button-1"
                   buttonStyle={styles.popUpButton}
@@ -208,9 +214,11 @@ class InfoScreen extends Component {
             <HomeButton
               text='Credits'
               bgColor= {Colors.kmfGreen}
-              onPress={() => navigate('ArtistsScreen')} />
+              onPress={() => {
+                this.popupDialog6.show();
+              }}/>
             <PopupDialog
-              ref={(popupDialog) => { this.popupDialog = popupDialog; }}
+              ref={(popupDialog6) => { this.popupDialog6 = popupDialog6; }}
               dialogAnimation={slideAnimation}
               containerStyle={styles.popUp}
               height={500}
@@ -218,7 +226,7 @@ class InfoScreen extends Component {
                 <DialogButton
                   text="DISMISS"
                   onPress={() => {
-                    this.popupDialog.dismiss();
+                    this.popupDialog6.dismiss();
                   }}
                   key="button-1"
                   buttonStyle={styles.popUpButton}
