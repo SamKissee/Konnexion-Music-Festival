@@ -24,7 +24,6 @@ export default StyleSheet.create({
     resizeMode: 'contain'
   },
   container: {
-    backgroundColor: 'transparent',
     flex: 1,
     height: '100%',
     flexDirection: 'column',
