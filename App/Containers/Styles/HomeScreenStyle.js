@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { Metrics, ApplicationStyles } from '../../Themes/'
+import { Metrics, ApplicationStyles, Colors } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
@@ -17,7 +17,8 @@ export default StyleSheet.create({
   flexHome: {
     flex: 1,
     height: '100%',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    backgroundColor: Colors.darkBlue,
     // justifyContent: 'flex-end'
     // // alignItems: 'center',
   },
@@ -25,8 +26,10 @@ export default StyleSheet.create({
     // // alignItems: 'center',
   },
   buttonHome: {
-    // flex: 1,
-    flexDirection: 'column'
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginBottom: 10,
     // justifyContent: 'flex-end'
   }
 })
