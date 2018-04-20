@@ -19,7 +19,7 @@ const PrimaryNav = StackNavigator({
 }, {
   // Default config for all screens
   headerMode: 'float',
-  initialRouteName: 'WorkshopScreen',
+  initialRouteName: 'InfoScreen',
   navigationOptions: {
     headerStyle: styles.header
   }
