@@ -65,6 +65,13 @@ export default StyleSheet.create({
     justifyContent: 'center',
     color: Colors.white
   },
+  campName: {
+    fontSize: Fonts.size.h5,
+    textAlign: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: Colors.kmfGreen
+  },
   name: {
     fontSize: Fonts.size.h2,
     textAlign: 'center',

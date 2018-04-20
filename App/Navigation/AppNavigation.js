@@ -19,7 +19,7 @@ const PrimaryNav = StackNavigator({
 }, {
   // Default config for all screens
   headerMode: 'float',
-  initialRouteName: 'ArtistsScreen',
+  initialRouteName: 'WorkshopScreen',
   navigationOptions: {
     headerStyle: styles.header
   }
