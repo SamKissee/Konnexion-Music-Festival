@@ -3,9 +3,9 @@ import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground } 
 import { connect } from 'react-redux'
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
-import RoundedButton from './../Components/RoundedButton.js'
+import HomeButton from './../Components/HomeButton.js'
 
-import { Images } from '../Themes'
+import { Images, Colors } from '../Themes'
 // Styles
 import styles from './Styles/HomeScreenStyle'
 
@@ -13,28 +13,31 @@ class HomeScreen extends Component {
   render () {
     const { navigate } = this.props.navigation
     return (
-      <ImageBackground source={Images.background1} style={styles.mainContainer}>
+      <View style={styles.mainContainer}>
         <View style={styles.flexHome}>
           <View style={styles.centered}>
             <Image source={Images.kmfLogo} style={styles.logo} />
           </View>
           <View style={styles.buttonHome}>
-            <RoundedButton
+            <HomeButton
               text='Music Schedule'
+              bgColor= {Colors.kmfPurple}
               onPress={() => navigate('ScheduleScreen')} />
-          </View>
-          <View style={styles.buttonHome}>
-            <RoundedButton
+            <HomeButton
               text='Artists'
+              bgColor= {Colors.kmfGreen}
               onPress={() => navigate('ArtistsScreen')} />
-          </View>
-          <View style={styles.buttonHome}>
-            <RoundedButton
+            <HomeButton
               text='Workshops'
+              bgColor= {Colors.kmfLightBlue}
               onPress={() => navigate('WorkshopScreen')} />
+            <HomeButton
+              text='Info'
+              bgColor= {Colors.kmfPeach}
+              onPress={() => navigate('InfoScreen')} />
           </View>
         </View>
-      </ImageBackground>
+      </View>
     )
   }
 }

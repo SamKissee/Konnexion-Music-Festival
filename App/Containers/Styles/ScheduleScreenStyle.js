@@ -24,7 +24,10 @@ export default StyleSheet.create({
     resizeMode: 'contain'
   },
   container: {
-    backgroundColor: 'transparent'
+    flex: 1,
+    height: '100%',
+    flexDirection: 'column',
+    backgroundColor: Colors.darkBlue,
 
   },
   centered: {
@@ -40,7 +43,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     margin: 10,
     padding: 5,
-    backgroundColor: Colors.darkBlue,
+    backgroundColor: Colors.kmfPurple,
     borderRadius: 4
   },
   time: {

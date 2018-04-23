@@ -5,30 +5,35 @@ export default StyleSheet.create({
   ...ApplicationStyles.screen,
   logo: {
     marginTop: Metrics.doubleSection,
-    marginBottom: 5,
+    marginBottom: 2,
     height: Metrics.images.logoSmall,
     width: Metrics.images.logoSmall,
     resizeMode: 'contain'
   },
   container: {
-    backgroundColor: 'transparent'
+    flex: 1,
+    height: '100%',
+    flexDirection: 'column',
+    backgroundColor: Colors.darkBlue,
 
   },
   centered: {
     alignItems: 'center'
   },
   header: {
-    marginTop: 20,
+    marginBottom: 2,
     textAlign: 'center',
     fontSize: Fonts.size.h1,
-    color: Colors.blue
+    color: Colors.kmfLightBlue
   },
   card: {
     flexDirection: 'column',
     margin: 10,
     padding: 10,
     backgroundColor: Colors.darkBlue,
-    borderRadius: 4
+    borderRadius: 4,
+    borderColor: Colors.kmfLightBlue,
+    borderWidth: 2,
   },
   topArea: {
     flexDirection: 'column',
@@ -60,11 +65,19 @@ export default StyleSheet.create({
     justifyContent: 'center',
     color: Colors.white
   },
+  campName: {
+    fontSize: Fonts.size.h5,
+    textAlign: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: Colors.kmfGreen
+  },
   name: {
     fontSize: Fonts.size.h2,
     textAlign: 'center',
     alignItems: 'center',
-    color: Colors.white
+    color: Colors.white,
+    fontWeight: 'bold'
   },
   bio: {
   },
@@ -74,6 +87,7 @@ export default StyleSheet.create({
   link: {
     paddingTop: 10,
     fontSize: Fonts.size.h6,
-    color: Colors.lightGrey
+    color: Colors.kmfGreen,
+
   }
 })

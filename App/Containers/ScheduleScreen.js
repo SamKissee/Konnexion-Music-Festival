@@ -33,13 +33,13 @@ class ScheduleScreen extends Component {
 
   render () {
     return (
-      <ImageBackground source={Images.background1} style={styles.mainContainer}>
+      <View style={styles.mainContainer}>
         <View style={styles.container}>
           <View style={styles.centered}>
             <Image source={Images.kmfLogo} style={styles.logo} />
           </View>
           <Tabs selected={this.state.page} style={styles.tabs}
-            selectedStyle={{color: Colors.darkBlue}} onSelect={el => this.setState({page: el.props.name})}>
+            selectedStyle={{color: Colors.kmfGreen}} onSelect={el => this.setState({page: el.props.name})}>
             <Text style={styles.tabLink} name={thursdayList} >Thursday</Text>
             <Text style={styles.tabLink} name={fridayList}>Friday</Text>
             <Text style={styles.tabLink} name={saturdayList}>Saturday</Text>
@@ -50,7 +50,7 @@ class ScheduleScreen extends Component {
             </ScrollView>
           </View>
         </View>
-      </ImageBackground>
+      </View>
     )
   }
 }

@@ -1,4 +1,5 @@
 import { StackNavigator } from 'react-navigation'
+import InfoScreen from '../Containers/InfoScreen'
 import ArtistsScreen from '../Containers/ArtistsScreen'
 import WorkshopScreen from '../Containers/WorkshopScreen'
 import HomeScreen from '../Containers/HomeScreen'
@@ -9,6 +10,7 @@ import styles from './Styles/NavigationStyles'
 
 // Manifest of possible screens
 const PrimaryNav = StackNavigator({
+  InfoScreen: { screen: InfoScreen },
   ArtistsScreen: { screen: ArtistsScreen },
   WorkshopScreen: { screen: WorkshopScreen },
   HomeScreen: { screen: HomeScreen },

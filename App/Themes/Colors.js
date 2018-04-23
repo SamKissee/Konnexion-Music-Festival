@@ -8,10 +8,13 @@ const colors = {
   coal: '#2d2d2d',
   text: '#E0D7E5',
   kmfGreen: '#48FF96',
+  kmfLightBlue: '#1bfefc',
+  kmfPurple: '#8125e4',
+  kmfPeach: '#fedcd3',
   white: '#FFFFFF',
   green: '#44fbbb',
   blue: '#170C53',
-  darkBlue: '#1D273F',
+  darkBlue: '#151d31',
   darkGrey: '#484041',
   lightGrey: '#ADA8B6'
 }

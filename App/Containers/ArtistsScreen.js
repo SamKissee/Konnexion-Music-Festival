@@ -39,19 +39,21 @@ class ArtistsScreen extends Component {
 
   render () {
     return (
-      <ImageBackground source={Images.background1} style={styles.mainContainer}>
+      <View style={styles.mainContainer}>
         <View style={styles.container}>
           <View style={styles.centered}>
             <Image source={Images.kmfLogo} style={styles.logo} />
+            <Text style={styles.header}>Artists</Text>
           </View>
           <View>
+
             <ScrollView style={{height: '75%'}}>
-              <Text style={styles.header}>Artists</Text>
+
               <FlatList data={this.state.artists} renderItem={this.renderItem} keyExtractor={(item, index) => index} />
             </ScrollView>
           </View>
         </View>
-      </ImageBackground>
+      </View>
     )
   }
 }
