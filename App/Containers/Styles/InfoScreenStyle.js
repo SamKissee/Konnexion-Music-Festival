@@ -67,6 +67,22 @@ export default StyleSheet.create({
     color: Colors.kmfPurple,
     fontSize: Fonts.size.h6,
     textAlign: 'center',
+  },
+  mainArea: {
+    width: '100%'
+  },
+  textArea: {
 
-  }
+    padding: 10,
+  },
+  subTitle: {
+    color: Colors.kmfLightBlue,
+    color: Colors.white,
+    fontSize: Fonts.size.regular,
+  },
+  title: {
+    color: Colors.kmfLightBlue,
+    fontWeight: 'bold',
+    fontSize: Fonts.size.regular,
+  },
 })

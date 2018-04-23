@@ -1,21 +1,45 @@
 import React, { Component } from 'react'
 import PopupDialog, { SlideAnimation, DialogButton } from 'react-native-popup-dialog';
-import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground, Linking } from 'react-native'
+import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground, Linking, FlatList } from 'react-native'
 import { connect } from 'react-redux'
-// Add Actions - replace 'Your' with whatever your reducer is called :)
-// import YourActions from '../Redux/YourRedux'
+import openMap from 'react-native-open-maps';
 import HomeButton from './../Components/HomeButton.js'
 
 import { Images, Colors } from '../Themes'
 // Styles
 import styles from './Styles/InfoScreenStyle'
+import { whatToBringList } from './../../assets/whatToBring'
+import { rulesList } from './../../assets/rules'
 
 const slideAnimation = new SlideAnimation({
   slideFrom: 'right',
 });
 
-
 class InfoScreen extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      whatToBringList: whatToBringList,
+      rulesList: rulesList
+    }
+  };
+
+  _goToYosemite() {
+    openMap({ latitude: 43.9757659, longitude: -116.141082 });
+  };
+
+  renderItem ({item}) {
+    return (
+      <View style={styles.mainArea}>
+        <View style={styles.textArea}>
+          <Text style={styles.title}>{item.title}</Text>
+          <Text style={styles.subTitle}>{item.subTitle}</Text>
+        </View>
+      </View>
+    )
+  }
+
+
   render () {
     const { navigate } = this.props.navigation
     return (
@@ -144,6 +168,7 @@ class InfoScreen extends Component {
                   <Text style={styles.popUpText}>
                     WHAT TO BRING:
                   </Text>
+                  <FlatList data={this.state.whatToBringList} renderItem={this.renderItem} keyExtractor={(item, index) => index} />
                 </View>
               </ScrollView>
             </PopupDialog>
@@ -173,14 +198,9 @@ class InfoScreen extends Component {
               <ScrollView style={styles.popUpContainer}>
                 <View >
                   <Text style={styles.popUpText}>
-                    Konnexion is Idaho’s largest music and arts festival. We’re dedicated to building the best possible summer camping and festival experience we can while staying true to our core values.
+                    You will be removed from the event if you fail to follow these rules. No refunds.
                   </Text>
-                  <Text style={styles.popUpText}>
-                    Our goal is to build community and celebrate music and art. We strive to provide a comfortable and truly unique experience, unlike any other in Idaho. 2018 is going to be massive, taking place in a beautiful venue surrounded by 360 degrees of Idaho mountains. Camp on site in a tent, fun and decorative camps are highly encouraged.
-                  </Text>
-                  <Text style={styles.popUpText}>
-                    This year we are bringing the biggest vision we’ve ever had to fruition May 31st-June 3rd. Blessing our stages will be a highly curated eclectic vision of melodic journeys. From Jam Bands to Techno and everything in between. Aside from music, we feature performance artists, live paintings and artistic sculptures throughout the event. Join us on this journey into our 6th year of creating space for like-minded individuals to gather and connect.
-                  </Text>
+                  <FlatList data={this.state.rulesList} renderItem={this.renderItem} keyExtractor={(item, index) => index} />
                 </View>
               </ScrollView>
             </PopupDialog>
@@ -212,12 +232,11 @@ class InfoScreen extends Component {
                   <Text style={styles.popUpText}>
                     Konnexion is Idaho’s largest music and arts festival. We’re dedicated to building the best possible summer camping and festival experience we can while staying true to our core values.
                   </Text>
-                  <Text style={styles.popUpText}>
-                    Our goal is to build community and celebrate music and art. We strive to provide a comfortable and truly unique experience, unlike any other in Idaho. 2018 is going to be massive, taking place in a beautiful venue surrounded by 360 degrees of Idaho mountains. Camp on site in a tent, fun and decorative camps are highly encouraged.
-                  </Text>
-                  <Text style={styles.popUpText}>
-                    This year we are bringing the biggest vision we’ve ever had to fruition May 31st-June 3rd. Blessing our stages will be a highly curated eclectic vision of melodic journeys. From Jam Bands to Techno and everything in between. Aside from music, we feature performance artists, live paintings and artistic sculptures throughout the event. Join us on this journey into our 6th year of creating space for like-minded individuals to gather and connect.
-                  </Text>
+                  <Button
+                    color={'#bdc3c7'}
+                    onPress={this._goToYosemite}
+                  title="Click To Open Maps 🗺" />
+                
                 </View>
               </ScrollView>
             </PopupDialog>
