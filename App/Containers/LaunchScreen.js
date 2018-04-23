@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { ScrollView, Text, Image, View, ImageBackground } from 'react-native'
 import RoundedButton from './../Components/RoundedButton.js'
+import SplashScreen from 'react-native-splash-screen'
 
 import { Images } from '../Themes'
 
@@ -8,6 +9,12 @@ import { Images } from '../Themes'
 import styles from './Styles/LaunchScreenStyles'
 
 export default class LaunchScreen extends Component {
+
+  componentDidMount() {
+    	// do stuff while splash screen is shown
+        // After having done stuff (such as async tasks) hide the splash screen
+        SplashScreen.hide();
+  };
   render () {
     const { navigate } = this.props.navigation
     return (
