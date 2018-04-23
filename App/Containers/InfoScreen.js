@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PopupDialog, { SlideAnimation, DialogButton } from 'react-native-popup-dialog';
-import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground, Linking, FlatList } from 'react-native'
+import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground, Linking, FlatList, Button } from 'react-native'
 import { connect } from 'react-redux'
 import openMap from 'react-native-open-maps';
 import HomeButton from './../Components/HomeButton.js'
@@ -24,7 +24,7 @@ class InfoScreen extends Component {
     }
   };
 
-  _goToYosemite() {
+  _goToKonnexion() {
     openMap({ latitude: 43.9757659, longitude: -116.141082 });
   };
 
@@ -230,13 +230,14 @@ class InfoScreen extends Component {
               <ScrollView style={styles.popUpContainer}>
                 <View >
                   <Text style={styles.popUpText}>
-                    Konnexion is Idaho’s largest music and arts festival. We’re dedicated to building the best possible summer camping and festival experience we can while staying true to our core values.
+                    Konnexion is excited to be hosting our 6th year at ZipIdaho just outside Horseshoe Bend, ID. Located about 1 hour outside Boise! Click Below and it will open directions to the Property from wherever you are, using Google or Apple Maps!
                   </Text>
-                  <Button
-                    color={'#bdc3c7'}
-                    onPress={this._goToYosemite}
-                  title="Click To Open Maps 🗺" />
-                
+                  <HomeButton
+                    bgColor={Colors.kmfLightBlue}
+                    onPress={this._goToKonnexion}
+                    text="Press To Open Directions"
+                  />
+
                 </View>
               </ScrollView>
             </PopupDialog>
@@ -265,15 +266,10 @@ class InfoScreen extends Component {
             >
               <ScrollView style={styles.popUpContainer}>
                 <View >
-                  <Text style={styles.popUpText}>
-                    Konnexion is Idaho’s largest music and arts festival. We’re dedicated to building the best possible summer camping and festival experience we can while staying true to our core values.
+                  <Text style={styles.creditText}>
+                    This App was built for Konnexion Music Festival by Sam Kissee of Kissee Designs.
                   </Text>
-                  <Text style={styles.popUpText}>
-                    Our goal is to build community and celebrate music and art. We strive to provide a comfortable and truly unique experience, unlike any other in Idaho. 2018 is going to be massive, taking place in a beautiful venue surrounded by 360 degrees of Idaho mountains. Camp on site in a tent, fun and decorative camps are highly encouraged.
-                  </Text>
-                  <Text style={styles.popUpText}>
-                    This year we are bringing the biggest vision we’ve ever had to fruition May 31st-June 3rd. Blessing our stages will be a highly curated eclectic vision of melodic journeys. From Jam Bands to Techno and everything in between. Aside from music, we feature performance artists, live paintings and artistic sculptures throughout the event. Join us on this journey into our 6th year of creating space for like-minded individuals to gather and connect.
-                  </Text>
+
                 </View>
               </ScrollView>
             </PopupDialog>

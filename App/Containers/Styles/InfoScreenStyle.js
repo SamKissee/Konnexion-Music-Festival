@@ -68,6 +68,12 @@ export default StyleSheet.create({
     fontSize: Fonts.size.h6,
     textAlign: 'center',
   },
+  creditText: {
+    color: Colors.kmfPurple,
+    fontSize: Fonts.size.h4,
+    textAlign: 'center',
+
+  },
   mainArea: {
     width: '100%'
   },
