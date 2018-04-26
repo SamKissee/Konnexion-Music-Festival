@@ -3,7 +3,7 @@ import { Images } from './../App/Themes'
 export const artistList = [
   {
     'name': 'Kissee',
-    'bio': 'HEY! I made this APP! Thanks for downloading and checking it out! - Producer from Boise,ID , putting my own spin on Melodic Deep Bass Music. My goal with my productions and sets is to make you feel the music. Sonically moving you and your emotions with each beat. ',
+    'bio': 'Hey! I made this App! Thanks for downloading and checking it out and supporting all of us on the Konnexion Crew! - I am a producer from Boise,ID , putting my own spin on Melodic Deep Bass Music. My goal with my productions and sets is to make you feel the music. Sonically moving you and your emotions with each beat. ',
     'genre': 'Wave/Melodic/Halftime',
     'location': 'Boise, ID',
     'picture': Images.kissee,
