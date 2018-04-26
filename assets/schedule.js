@@ -3,43 +3,43 @@ export const thursdayList = [
     'day': 'thursday',
     'time': '3:30pm',
     'artist': 'WOH BINGO',
-    'stage': 'Main Stage'
+    'stage': 'Grove Stage'
   },
   {
     'day': 'thursday',
     'time': '5:00pm',
     'artist': 'WOH CREW B2B',
-    'stage': 'Main Stage'
+    'stage': 'Grove Stage'
   },
   {
     'day': 'thursday',
     'time': '8:00pm',
     'artist': 'Styles In Black',
-    'stage': 'Main Stage'
+    'stage': 'Grove Stage'
   },
   {
     'day': 'thursday',
     'time': '8:45pm',
     'artist': 'Modest Haus',
-    'stage': 'Main Stage'
+    'stage': 'Grove Stage'
   },
   {
     'day': 'thursday',
     'time': '9:30pm',
     'artist': 'STRAND',
-    'stage': 'Main Stage'
+    'stage': 'Grove Stage'
   },
   {
     'day': 'thursday',
     'time': '10:15pm',
     'artist': 'Deeveaux',
-    'stage': 'Main Stage'
+    'stage': 'Grove Stage'
   },
   {
     'day': 'thursday',
     'time': '11:00pm',
     'artist': 'Olivier Giacomotto',
-    'stage': 'Main Stage'
+    'stage': 'Grove Stage'
   }
 ]
 export const fridayList = [
@@ -124,13 +124,19 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '12:00am',
-    'artist': 'Mat the Alien/ The Librarian',
+    'artist': 'Mat the Alien & The Librarian',
     'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
     'time': '12:00am',
-    'artist': 'Porky b2b Tara Brooks',
+    'artist': 'Tara Brooks',
+    'stage': 'Grove Stage'
+  },
+  {
+    'day': 'Friday',
+    'time': '1:00am',
+    'artist': 'Porky',
     'stage': 'Grove Stage'
   },
   {
@@ -252,7 +258,13 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '12:00am',
-    'artist': 'Marbs b2b Evan Casey',
+    'artist': 'Evan Casey',
+    'stage': 'Grove Stage'
+  },
+  {
+    'day': 'Saturday',
+    'time': '1:00am',
+    'artist': 'Marbs',
     'stage': 'Grove Stage'
   },
   {
