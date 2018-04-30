@@ -2,7 +2,6 @@
 const images = {
   kmfLogo: require('../Images/logo.png'),
   background: require('../Images/BG.jpg'),
-  background1: require('../Images/BG.png'),
   api: require('../Images/Icons/icon-api-testing.png'),
   components: require('../Images/Icons/icon-components.png'),
   deviceInfo: require('../Images/Icons/icon-device-information.png'),
