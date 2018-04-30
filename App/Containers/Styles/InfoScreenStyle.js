@@ -4,14 +4,14 @@ import { ApplicationStyles, Metrics, Colors, Fonts } from '../../Themes/'
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
   logo: {
-    marginTop: Metrics.doubleSection,
+    marginTop: 10,
     height: Metrics.images.logoSmall,
     width: Metrics.images.logoSmall,
     resizeMode: 'contain'
   },
   centered: {
     alignItems: 'center',
-    marginBottom: 30
+    marginBottom: 10
 
   },
   flexHome: {
@@ -33,11 +33,11 @@ export default StyleSheet.create({
     // justifyContent: 'flex-end'
   },
   popUp: {
-    height: '90%',
+    height: '100%',
 
   },
   popUpContainer: {
-    height: '90%',
+    height: '100%',
     flexDirection: 'column',
     backgroundColor: Colors.darkBlue,
     // borderRadius: 4,

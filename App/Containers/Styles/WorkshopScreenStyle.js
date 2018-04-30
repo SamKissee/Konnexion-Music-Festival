@@ -4,7 +4,7 @@ import { Metrics, ApplicationStyles } from '../../Themes/'
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
   logo: {
-    marginTop: Metrics.doubleSection,
+    marginTop: 10,
     marginBottom: 5,
     height: Metrics.images.logoSmall,
     width: Metrics.images.logoSmall,
