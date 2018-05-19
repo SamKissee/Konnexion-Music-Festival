@@ -38,7 +38,7 @@ export const thursdayList = [
   {
     'day': 'thursday',
     'time': '11:00pm',
-    'artist': 'Olivier Giacomotto',
+    'artist': 'Christian Martin',
     'stage': 'Grove Stage'
   }
 ]
@@ -70,7 +70,7 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '4:00pm',
-    'artist': 'Tooie',
+    'artist': 'Orracle',
     'stage': 'Tent Town'
   },
   {
@@ -81,31 +81,31 @@ export const fridayList = [
   },
   {
     'day': 'Friday',
-    'time': '6:00pm',
+    'time': '5:30pm',
     'artist': 'Rhythmic Friction',
     'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
-    'time': '7:00pm',
+    'time': '6:30pm',
     'artist': 'Dot Diggler',
     'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
-    'time': '8:00pm',
+    'time': '7:45pm',
     'artist': 'Five Alarm Funk',
     'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
-    'time': '9:30pm',
+    'time': '9:15pm',
     'artist': 'DJEDI',
     'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
-    'time': '10:00pm',
+    'time': '9:30pm',
     'artist': 'EvoluShawn',
     'stage': 'Grove Stage'
   },
@@ -117,38 +117,38 @@ export const fridayList = [
   },
   {
     'day': 'Friday',
-    'time': '11:00pm',
-    'artist': 'Kissee',
+    'time': '10:30pm',
+    'artist': 'Michael Manahan',
     'stage': 'Grove Stage'
   },
   {
     'day': 'Friday',
-    'time': '12:00am',
-    'artist': 'Mat the Alien & The Librarian',
+    'time': '12:15am',
+    'artist': 'Longwalk Shortdock',
     'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
-    'time': '12:00am',
+    'time': '11:30pm',
     'artist': 'Tara Brooks',
     'stage': 'Grove Stage'
   },
   {
     'day': 'Friday',
-    'time': '1:00am',
+    'time': '12:30am',
     'artist': 'Porky',
     'stage': 'Grove Stage'
   },
   {
     'day': 'Friday',
-    'time': '2:00am',
+    'time': '1:30am',
     'artist': 'Alex Banks',
     'stage': 'Grove Stage'
   },
   {
     'day': 'Friday',
     'time': '3:00am',
-    'artist': 'Keota',
+    'artist': 'Detox Unit',
     'stage': 'Grove Stage'
   },
   {
@@ -209,38 +209,38 @@ export const saturdayList = [
   },
   {
     'day': 'Saturday',
-    'time': '6:00pm',
+    'time': '5:30pm',
     'artist': 'Katherine Carole',
     'stage': 'Main Stage'
   },
   {
     'day': 'Saturday',
-    'time': '7:00pm',
+    'time': '6:30pm',
     'artist': 'Josh Volt',
     'stage': 'Main Stage'
   },
   {
     'day': 'Saturday',
-    'time': '8:00pm',
+    'time': '7:30pm',
     'artist': 'Brodyizm',
     'stage': 'Main Stage'
   },
   {
     'day': 'Saturday',
-    'time': '9:00pm',
+    'time': '8:40pm',
     'artist': 'Devin Kroes',
     'stage': 'Main Stage'
   },
   {
     'day': 'Saturday',
-    'time': '10:00pm',
+    'time': '9:50pm',
     'artist': 'Frameworks (UK)',
     'stage': 'Main Stage'
   },
   {
     'day': 'Saturday',
     'time': '10:00pm',
-    'artist': 'Michael Manahan',
+    'artist': 'Kissee',
     'stage': 'Grove Stage'
   },
   {
@@ -251,7 +251,7 @@ export const saturdayList = [
   },
   {
     'day': 'Saturday',
-    'time': '11:30pm',
+    'time': '11:20pm',
     'artist': 'Ives',
     'stage': 'Main Stage'
   },
@@ -263,15 +263,15 @@ export const saturdayList = [
   },
   {
     'day': 'Saturday',
-    'time': '1:00am',
-    'artist': 'Marbs',
-    'stage': 'Grove Stage'
+    'time': '12:30am',
+    'artist': 'Mat the Alien b2b The Librarian',
+    'stage': 'Main Stage'
   },
   {
     'day': 'Saturday',
-    'time': '12:30am',
-    'artist': 'Longwalk Shortdock',
-    'stage': 'Main Stage'
+    'time': '1:00am',
+    'artist': 'Marbs',
+    'stage': 'Grove Stage'
   },
   {
     'day': 'Saturday',
@@ -282,7 +282,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '3:00am',
-    'artist': 'Detox Unit',
+    'artist': 'Keota',
     'stage': 'Grove Stage'
   },
   {

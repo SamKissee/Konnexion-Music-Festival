@@ -314,6 +314,14 @@ export const artistList = [
     'link': 'https://soundcloud.com/wohcollective/modest-haus-support-set-for-woh-presents-justin-martin'
   },
   {
+    'name': 'Argon',
+    'bio': 'A Bass driven Dj/producer out of Portland Oregon set out to share psychedelic & groovy beatz with the world',
+    'genre': 'Bass',
+    'location': 'Portland, OR',
+    'picture': Images.argon,
+    'link': 'https://soundcloud.com/argon_music'
+  },
+  {
     'name': 'Viscous',
     'bio': 'VISCOUS has been producing music since 2008. It started as just a hobby and a passion for music. Since the beginning his style has remained in the realm of instrumental/808/beats. In 2013 he started making hip-hop beats, because who doesnt love hip-hop? Producing beats for local artists in Salt Lake, he also joined the SLC hip-hop group The Astroknots; producing, recording, and DJing their live shows. Since then he has gone solo, and as of late has geared his sound/style more towards the all-encompassing genre of Bass Music (more specifically dubstep, dnb, trap, grime, halftime, lo-fi beats, ect',
     'genre': 'Bass',

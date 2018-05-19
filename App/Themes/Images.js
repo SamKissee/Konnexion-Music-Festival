@@ -51,6 +51,7 @@ const images = {
   dayne5150: require('../Images/artistpics/dayne5150.jpg'),
   deeveaux: require('../Images/artistpics/deeveaux.jpg'),
   cloudest: require('../Images/artistpics/cloudest.jpg'),
+  argon: require('../Images/artistpics/argon.jpg'),
   styles: require('../Images/artistpics/styles.jpg'),
   strand: require('../Images/artistpics/strand.jpg'),
   noprophit: require('../Images/artistpics/noprophit.jpg'),
