@@ -37,9 +37,25 @@ export const workshopList = [
     'name': 'Authentic Masculine Collective',
     'bio': "​The Authentic Masculine Collective is a men's group/community based out of Boise, Idaho that strives to debunk the traditional road map of masculinity and assist in awakening men to their fullest potential as authentic human beings. Through in-depth introspection, vulnerability, accountability, and open communication, we push ourselves and each other to excel in being our best versions of ourselves, and become better acquainted with our undigested emotional traumas, self-destructive behavioral patterns, and shadow selves that seem to come in at the right time and sabotage everything we have worked to build. This workshop will consist of various exercises that will propel us men into more poignant connection with ourselves and each other, as well as provide men with a safe platform to dive deeper into themselves and shed their old baggage that no longer serves them.",
     'teacher': 'Dylan Hunter',
-    'location': 'TENTTOWN',
+    'location': 'Lunar Space',
     'picture': Images.masculine,
-    'time': 'Saturday 9:00am-10:00am'
+    'time': 'Friday 11:00am-12:00pm'
+  },
+  {
+    'name': 'Yoga',
+    'bio': "Natalie is trained in many modern styles; therapeutic, rehab, restorative, partner/acrobatic, alignment, vinyasa, and power. Her 200hr certification and major influence comes from a live-in ashram, Sivananda, a style of hatha unchanged from its roots in India. She enjoys the festival energy of spontaneity and hopes to bring stillness and presence to the students while reminding them of their body’s ability to play and connect with others in an acrobatic, child-like way.",
+    'teacher': 'Natalie Bramwell',
+    'location': 'Lunar Space',
+    'picture': Images.kmfLogo,
+    'time': 'Friday 1:00pm-2:00pm'
+  },
+  {
+    'name': 'Meditation Station',
+    'bio': "​",
+    'teacher': 'Jill Carskaddon',
+    'location': 'Lunar Space',
+    'picture': Images.kmfLogo,
+    'time': 'Saturday 9:00am-10:30am'
   },
   {
     'name': 'Yoga Nidra',
@@ -50,6 +66,14 @@ export const workshopList = [
     'time': 'Saturday 10:00am-11:00am'
   },
   {
+    'name': 'Igniting Your Inner Priestess',
+    'bio': "​You are invited to embrace and ignite your Shakti, our divine feminine energy within to create more heart centered connections with our selves and others. Through activating our feminine energy/essence via experiential heart centered meditation, intention and manifestation exercise we will harness and embody more of our individuality passion, creativity, beauty and personal power. All genders welcome as divine feminine energy resides within all of us.",
+    'teacher': 'Elisa Hedrick',
+    'location': 'Lunar Space',
+    'picture': Images.kmfLogo,
+    'time': 'Saturday 11:00am-12:00pm'
+  },
+  {
     'name': 'BOOTYS, BLOODYS, & BASS',
     'bio': "​Do you like Bootys? Bloody Mary's or Bass?... Tenttown will be preparing a classic hangover cure for you while you bounce your booty to some good tunes! DJ Dud will be laying down the beats while we keep the good times going! You bring the booty and we'll bring the bloodys and bass!",
     'teacher': 'Mitchayla & DJ Dud',
@@ -58,12 +82,28 @@ export const workshopList = [
     'time': 'Saturday 11:00am-12:00pm'
   },
   {
+    'name': 'Yoga',
+    'bio': "Natalie is trained in many modern styles; therapeutic, rehab, restorative, partner/acrobatic, alignment, vinyasa, and power. Her 200hr certification and major influence comes from a live-in ashram, Sivananda, a style of hatha unchanged from its roots in India. She enjoys the festival energy of spontaneity and hopes to bring stillness and presence to the students while reminding them of their body’s ability to play and connect with others in an acrobatic, child-like way.",
+    'teacher': 'Natalie Bramwell',
+    'location': 'Lunar Space',
+    'picture': Images.kmfLogo,
+    'time': 'Saturday 1:00pm-2:00pm'
+  },
+  {
     'name': 'Intro to Sacred Geometry',
     'bio': "This class will be driven toward those interested in learning more information on Sacred Geometry and how to integrate it's significance in daily life, and to discuss the symbolism of some of the most common designs.",
     'teacher': 'AJ Vancattenburch',
     'location': 'Wanderland',
     'picture': Images.sacredG,
     'time': 'Sat 1:00pm-2:00pm'
+  },
+  {
+    'name': 'Contact Staff',
+    'bio': "This workshop will consist of the many concepts and theories encompassing the basics in the art of contact staff. Any person no matter their skill level can benefit greatly from one-on-one time, or even time in a group, going over some of the many tips & techniques to nail that next level trick. With hard work and perseverance anything can be achieved. With roughly an hour of overall time, Ill go over a quick lecture, then getting everyone started with the tips and techniques for some of the beginning contact staff moves and finishing up with a run through working with each person one-on-one till they nail that trick they’ve been dreaming of regardless of difficulty.",
+    'teacher': 'Daniel Corder',
+    'location': 'Lunar Space',
+    'picture': Images.kmfLogo,
+    'time': 'Sat 2:00pm-3:00pm'
   },
   {
     'name': 'Learn to Henna Workshop',

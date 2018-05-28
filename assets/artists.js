@@ -26,14 +26,6 @@ export const artistList = [
     'link': 'https://soundcloud.com/alexbanksmusic'
   },
   {
-    'name': 'Olivier Giacomotto',
-    'bio': 'International DJ, charting producer, in-demand remixer, Beatport Music Awards nominee, Olivier Giacomotto is a proven integral player of the electronic music scene. He first got into production in 1999 working as producer assistant at Townhouse Studios in London, then went back to France with enough experience to start a career of music composer. His tireless need to evolve and grow as creative entity and forward thinking artist always forced this Paris based composer to constantly seek a new musical excitement. Therefore Olivier naturally crossed musical genres and trends always keeping an eye on the original definition of the underground.',
-    'genre': 'Tech House',
-    'location': 'Paris, France',
-    'picture': Images.olivier,
-    'link': 'https://soundcloud.com/oliviergiacomotto'
-  },
-  {
     'name': 'Jaxta',
     'bio': 'Having both started their musical careers at the young age of 17, Split & Jaxta each bring different backgrounds and styles to their effort which blends exceptionally into a unique and formidable sound. Stylistically, their music derives influences from the psy-trance genre that seems to be the leading sound for Israel’s EDM culture, and twists into an electro-based spectrum, with distorted synths and a certain rock and roll rawness.',
     'genre': 'Psytrance',

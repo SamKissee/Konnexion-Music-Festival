@@ -8,7 +8,25 @@ export const thursdayList = [
   {
     'day': 'thursday',
     'time': '5:00pm',
-    'artist': 'WOH CREW B2B',
+    'artist': 'Cloudest Speaker',
+    'stage': 'Grove Stage'
+  },
+  {
+    'day': 'thursday',
+    'time': '5:45pm',
+    'artist': 'Argon',
+    'stage': 'Grove Stage'
+  },
+  {
+    'day': 'thursday',
+    'time': '6:30pm',
+    'artist': 'Suite Love',
+    'stage': 'Grove Stage'
+  },
+  {
+    'day': 'thursday',
+    'time': '7:15pm',
+    'artist': 'No.Prophit',
     'stage': 'Grove Stage'
   },
   {
@@ -52,7 +70,7 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '1:00pm',
-    'artist': 'DJ SAM',
+    'artist': 'BeanBoy McCoy',
     'stage': 'Tent Town'
   },
   {
@@ -76,8 +94,14 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '5:00pm',
-    'artist': 'Drixx',
+    'artist': 'Viscous',
     'stage': 'Tent Town'
+  },
+  {
+    'day': 'Friday',
+    'time': '5:15pm',
+    'artist': 'Opening Ceremony',
+    'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
@@ -88,19 +112,19 @@ export const fridayList = [
   {
     'day': 'Friday',
     'time': '6:30pm',
-    'artist': 'Dot Diggler',
+    'artist': 'Josh Volt',
     'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
-    'time': '7:45pm',
+    'time': '7:30pm',
+    'artist': 'Brodyizm',
+    'stage': 'Main Stage'
+  },
+  {
+    'day': 'Friday',
+    'time': '8:45pm',
     'artist': 'Five Alarm Funk',
-    'stage': 'Main Stage'
-  },
-  {
-    'day': 'Friday',
-    'time': '9:15pm',
-    'artist': 'DJEDI',
     'stage': 'Main Stage'
   },
   {
@@ -111,8 +135,8 @@ export const fridayList = [
   },
   {
     'day': 'Friday',
-    'time': '10:30pm',
-    'artist': 'Dirtwire',
+    'time': '10:15pm',
+    'artist': 'Dot Diggler',
     'stage': 'Main Stage'
   },
   {
@@ -123,8 +147,8 @@ export const fridayList = [
   },
   {
     'day': 'Friday',
-    'time': '12:15am',
-    'artist': 'Longwalk Shortdock',
+    'time': '11:15pm',
+    'artist': 'DJEDI',
     'stage': 'Main Stage'
   },
   {
@@ -132,6 +156,12 @@ export const fridayList = [
     'time': '11:30pm',
     'artist': 'Tara Brooks',
     'stage': 'Grove Stage'
+  },
+  {
+    'day': 'Friday',
+    'time': '12:15am',
+    'artist': 'Longwalk Shortdock',
+    'stage': 'Main Stage'
   },
   {
     'day': 'Friday',
@@ -180,7 +210,7 @@ export const saturdayList = [
   {
     'day': 'Saturday',
     'time': '1:00pm',
-    'artist': 'BeanBoy McCoy',
+    'artist': 'DJ Sam',
     'stage': 'Tent Town'
   },
   {
@@ -197,6 +227,12 @@ export const saturdayList = [
   },
   {
     'day': 'Saturday',
+    'time': '3:00-6:00pm',
+    'artist': 'Conscious Hip Hop Showcase',
+    'stage': 'Lunar Space'
+  },
+  {
+    'day': 'Saturday',
     'time': '4:00pm',
     'artist': 'LoveGunz',
     'stage': 'Tent Town'
@@ -209,26 +245,20 @@ export const saturdayList = [
   },
   {
     'day': 'Saturday',
-    'time': '5:30pm',
+    'time': '6:00pm',
     'artist': 'Katherine Carole',
     'stage': 'Main Stage'
   },
   {
     'day': 'Saturday',
-    'time': '6:30pm',
-    'artist': 'Josh Volt',
-    'stage': 'Main Stage'
-  },
-  {
-    'day': 'Saturday',
-    'time': '7:30pm',
-    'artist': 'Brodyizm',
-    'stage': 'Main Stage'
-  },
-  {
-    'day': 'Saturday',
-    'time': '8:40pm',
+    'time': '7:00pm',
     'artist': 'Devin Kroes',
+    'stage': 'Main Stage'
+  },
+  {
+    'day': 'Saturday',
+    'time': '8:10pm',
+    'artist': 'Dirtwire',
     'stage': 'Main Stage'
   },
   {
@@ -251,7 +281,7 @@ export const saturdayList = [
   },
   {
     'day': 'Saturday',
-    'time': '11:20pm',
+    'time': '11:30pm',
     'artist': 'Ives',
     'stage': 'Main Stage'
   },
