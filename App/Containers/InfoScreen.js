@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PopupDialog, { SlideAnimation, DialogButton } from 'react-native-popup-dialog';
 import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground, Linking, FlatList, Button } from 'react-native'
 import { connect } from 'react-redux'
-import openMap from 'react-native-open-maps';
+import { openMap } from 'react-native-open-maps';
 import HomeButton from './../Components/HomeButton.js'
 
 import { Images, Colors } from '../Themes'
