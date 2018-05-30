@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PopupDialog, { SlideAnimation, DialogButton } from 'react-native-popup-dialog';
 import { ScrollView, Text, KeyboardAvoidingView, Image, View, ImageBackground, Linking, FlatList, Button } from 'react-native'
 import { connect } from 'react-redux'
-import { openMap } from 'react-native-open-maps';
+import  openMap  from 'react-native-open-maps';
 import HomeButton from './../Components/HomeButton.js'
 
 import { Images, Colors } from '../Themes'
@@ -27,6 +27,8 @@ class InfoScreen extends Component {
   _goToKonnexion() {
     openMap({ latitude: 43.9757659, longitude: -116.141082 });
   };
+
+
 
   renderItem ({item}) {
     return (
@@ -236,6 +238,11 @@ class InfoScreen extends Component {
                     bgColor={Colors.kmfLightBlue}
                     onPress={this._goToKonnexion}
                     text="Press To Open Directions"
+                  />
+                  <HomeButton
+                    bgColor={Colors.kmfLightBlue}
+                    onPress={() => Linking.openURL('google.navigation:q=43.9757659+-116.141082')}
+                    text="Click Here if Android"
                   />
 
                 </View>

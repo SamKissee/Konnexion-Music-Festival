@@ -1,7 +1,7 @@
 package com.kmf;
 
 import com.facebook.react.ReactActivity;
-import org.devio.rn.splashscreen.SplashScreen; // import this
+import org.devio.rn.splashscreen.SplashScreen;
 import android.os.Bundle; // import this
 
 public class MainActivity extends ReactActivity {
