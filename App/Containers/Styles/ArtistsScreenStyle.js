@@ -4,7 +4,7 @@ import { Fonts, Metrics, ApplicationStyles, Colors } from '../../Themes/'
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
   logo: {
-    marginTop: 10,
+    marginTop: 40,
     marginBottom: 2,
     height: Metrics.images.logoSmall,
     width: Metrics.images.logoSmall,
@@ -37,7 +37,7 @@ export default StyleSheet.create({
   },
   topArea: {
     flexDirection: 'column',
-    margin: 10,
+    margin: 15,
     // padding: 5,
     backgroundColor: Colors.darkBlue,
     borderRadius: 4
@@ -45,7 +45,7 @@ export default StyleSheet.create({
   imgArea: {
     flex: 1,
     alignItems: 'center',
-    marginBottom: 5
+    marginBottom: 5,
     // height: Metrics.images.photo,
     // width: Metrics.images.photo,
 
